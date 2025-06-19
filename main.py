@@ -343,7 +343,7 @@ with col1:
     st.button("Reset", use_container_width=True, on_click=reset_conversation)
 
     with st.spinner("Converting speech to text..."):
-        text = speech_to_text(language="ur", just_once=True, key="STT", use_container_width=True)
+        text = speech_to_text(language="en", just_once=True, key="STT", use_container_width=True)
 
 query = st.chat_input("Type your question")
 
