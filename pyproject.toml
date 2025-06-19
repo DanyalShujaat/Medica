@@ -1,0 +1,22 @@
+[project]
+name = "multimodal-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.12",
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.25",
+    "langchain-chroma>=0.2.3",
+    "langchain-community>=0.3.24",
+    "langchain-core>=0.3.63",
+    "langchain-openai>=0.3.18",
+    "langchain-qdrant>=0.2.0",
+    "langchain-text-splitters>=0.3.8",
+    "langgraph>=0.4.7",
+    "pillow>=11.2.1",
+    "pymupdf>=1.26.0",
+    "python-dotenv>=1.1.0",
+    "python-multipart>=0.0.20",
+]
